@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#bootstrap-test>div {
+    background-color: blue;
+    height: 500px;
+}
+
+#line-1{
+    height: 50%;
+}
+
+#title {
+    height: 15%;
+}
+
+#buy-box {
+    height: 85%;
+}
+
+#description,
+#related {
+    height: 25%;
+}
+
+#bootstrap-test .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
